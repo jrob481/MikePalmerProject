@@ -1,4 +1,19 @@
 .banner-top {
   background-image: url(https://i.postimg.cc/MpctYtGC/mockup-photos-660755-unsplash.jpg);
   height: 60%;
+
+}
+
+.banner-top h1 {
+  font-family: 'Fredericka The Great', cursive;
+  color: white;
+  margin-top: 10%;
+  font-size: 60px;
+}
+
+.top-bar {
+  /*position: fixed;
+  z-index: 1;*/
+  width: 100%;
+
 }
