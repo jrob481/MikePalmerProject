@@ -1,6 +1,8 @@
 .banner-top {
   background-image: url(https://i.postimg.cc/MpctYtGC/mockup-photos-660755-unsplash.jpg);
   height: 60%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 
 }
 
@@ -12,8 +14,14 @@
 }
 
 .top-bar {
-  /*position: fixed;
-  z-index: 1;*/
+  position: fixed;
+  z-index: 1;
   width: 100%;
+  margin-top: -5%;
 
+
+}
+
+.top-bar li {
+  font-family: 'Chelsea Market', cursive;
 }
