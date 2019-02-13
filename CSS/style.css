@@ -40,6 +40,20 @@ body {
   width: 100%;
 }
 
+.blog-post img {
+  width: 30%;
+}
+
+.bio {
+  background-image: url(https://i.postimg.cc/hvKdKPMk/magna-breban-1252940-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100% auto;
+  height: 20rem;
+  margin-top: 10rem;
+}
+
 /* FOOTER SECTION */
 
 .bottom {
