@@ -6,7 +6,8 @@ body {
 }
 
 .banner-top {
-  background-image: url(https://i.postimg.cc/MpctYtGC/mockup-photos-660755-unsplash.jpg);
+  background-image: url(https://i.postimg.cc/HsSt43Fb/mitchell-griest-743265-unsplash.jpg);
+  background-size: cover;
   height: 90%;
   margin-top: 5%;
   margin-bottom: 5%;
@@ -45,7 +46,7 @@ body {
 }
 
 .bio {
-  background-image: url(https://i.postimg.cc/hvKdKPMk/magna-breban-1252940-unsplash.jpg);
+  background-image: url();
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -97,6 +98,15 @@ body {
   }
   .top-bar {
     opacity: 1;
+  }
+
+  .blog-post img {
+    width: 100%;
+  }
+
+  .bottom {
+    margin-left: 0;
+    margin-right: 0;
   }
 
 }
