@@ -55,28 +55,37 @@
     background-color: gray;
     margin: 4rem 2rem 2rem 2rem;
     height: 20rem;
+    padding-bottom: 30rem;
   }
 
   .bottom p {
-    font-size: 1rem;
+    font-size: 2rem;
     margin-top: 4rem;
-    margin-bottom: 0.80rem;
-    margin-left: 1rem;
-    text-align: left;
+    margin-left: 28rem;
     padding-top: 4.5rem;
-
-  }
+    padding-right: 0;
+}
 
   .bottom h3 {
-    font-size: .70rem;
-    margin-left: 1rem;
+    font-size: 1rem;
+    margin-left: 29rem;
+
 
   }
   .bottom h2 {
     font-size: .85rem;
     margin-top: 17px;
-    margin-left: 12px;
+    margin-left: 28px;
+
   }
+
+/* SOCIAL MEDIA */
+
+.social-media i {
+  margin-top: 2rem;
+  margin-right: 4rem;
+  float: right;
+}
 
 @media only screen and (max-width: 450px) {
 
@@ -101,6 +110,19 @@
   .bottom {
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .bottom p  {
+    font-size: 1.6rem;
+    margin-left: 5rem;
+  }
+
+  .bottom h3 {
+    margin-left: 4rem;
+  }
+
+  .social-media i {
+    margin-right: 3.5rem;
   }
 
   .bio {
