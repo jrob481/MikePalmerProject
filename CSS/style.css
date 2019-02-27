@@ -29,12 +29,26 @@
   font-family: 'Chelsea Market', cursive;
 }
 
+/* PICTURES SECTION */
+
+.blog-post h3 {
+  text-align: center;
+  margin-top: 10%;
+}
+
 .blog-post iframe {
   width: 100%;
 }
 
 .blog-post img {
-  width: 30%;
+  width: 40%;
+  margin-left: 7%;
+  margin-top: 6rem;
+}
+
+.About h3 {
+  text-align: center;
+  margin-top: 10%;
 }
 
  .bio {
@@ -46,6 +60,14 @@
   height: 50rem;
   margin-top: 10rem;
 
+}
+
+.bio p {
+  font-size: 1.3rem;
+  text-align: center;
+  padding-top: 10rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
 }
 
 /* BOTTOM OF PAGE */
@@ -105,6 +127,14 @@
 
   .blog-post img {
     width: 100%;
+    margin-left: 0;
+  }
+
+  .bio p {
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 3rem;
+    font-size: .87rem;
   }
 
   .bottom {
