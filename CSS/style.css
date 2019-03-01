@@ -56,13 +56,28 @@
   margin-top: 6rem;
 }
 
-.About h3 { /* ADD A BLACK BACKGROUND & NICE FRAME AROUND THIS AND 'TOP PROJECTS' AND 'TOP VIDEOS' */
-  text-align: center;
-  margin-top: 10%;
+.About {
+  background-image: url(https://i.postimg.cc/XYJYJH8y/rawpixel-593607-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }
 
- .bio {
-  background-image: url(https://i.postimg.cc/440Qdrkn/timothy-dykes-504045-unsplash.jpg);
+.About h3 { /* ADD A BLACK BACKGROUND & NICE FRAME AROUND THIS AND 'TOP PROJECTS' AND 'TOP VIDEOS' */
+  font-family: Futura, cursive;
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 10.25%;
+  margin-right: 10.25%;
+  border-style: double;
+  padding-bottom: 4%;
+
+
+}
+
+ /*.bio {
+  background-image: url();
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -70,14 +85,16 @@
   height: 50rem;
   margin-top: 10rem;
 
-}
+}*/
 
 .bio p {
+  font-family: Futura, cursive;
   font-size: 1.3rem;
   text-align: center;
-  padding-top: 10rem;
-  margin-left: 10rem;
-  margin-right: 10rem;
+  padding-top: 3rem;
+  padding-bottom: 8rem;
+  margin-left: 12rem;
+  margin-right: 12rem;
 }
 
 /* BOTTOM OF PAGE */
@@ -85,7 +102,7 @@
 .bottom {
     display: flex;
     background-color: gray;
-    margin: 4rem 2rem 2rem 2rem;
+    margin: 0 2rem 2rem 2rem;
     height: 20rem;
     padding-bottom: 30rem;
   }
@@ -143,7 +160,8 @@
   .bio p {
     margin-left: 0;
     margin-right: 0;
-    padding-top: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 0;
     font-size: .87rem;
   }
 
@@ -165,14 +183,14 @@
     margin-right: 3.5rem;
   }
 
-  .bio {
+  .About {
     margin-top: 0;
     background-size: cover;
     height: 30rem;
   }
 
   .About {
-    margin-top: 10rem;
+    margin-top: 5rem;
   }
 
 
