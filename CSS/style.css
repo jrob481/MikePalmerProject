@@ -132,8 +132,13 @@
 
 .social-media i {
   margin-top: 2rem;
-  margin-right: 4rem;
+  margin-right: 2rem;
   float: right;
+}
+
+ i:hover {
+  color: darkgray;
+
 }
 
 @media only screen and (max-width: 450px) {
@@ -180,7 +185,7 @@
   }
 
   .social-media i {
-    margin-right: 3.5rem;
+    margin-right: 2rem;
   }
 
   .About {
