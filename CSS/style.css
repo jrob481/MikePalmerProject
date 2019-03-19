@@ -124,7 +124,7 @@
   .bottom h2 {
     font-size: .85rem;
     margin-top: 17px;
-    margin-left: 28px;
+    margin-left: 33rem;
 
   }
 
@@ -132,7 +132,7 @@
 
 .social-media i {
   margin-top: 2rem;
-  margin-right: 2rem;
+  margin-right: 3.75rem;
   float: right;
 }
 
@@ -184,8 +184,14 @@
     margin-left: 4rem;
   }
 
-  .social-media i {
-    margin-right: 2rem;
+  .bottom h2 {
+    margin-left: 8rem;
+  }
+
+  .social-media  {
+    margin-right: 0;
+    margin-left: 1rem;
+    float: right;
   }
 
   .About {
