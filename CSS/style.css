@@ -108,9 +108,9 @@
   }
 
   .bottom p {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 4rem;
-    margin-left: 28rem;
+    margin-left: 30rem;
     padding-top: 4.5rem;
     padding-right: 0;
 }
@@ -132,7 +132,7 @@
 
 .social-media i {
   margin-top: 2rem;
-  margin-right: 3.75rem;
+  margin-right: 4.2rem;
   float: right;
 }
 
@@ -162,6 +162,9 @@
     margin-left: 0;
   }
 
+  .blog-post iframe {
+    margin-top: 0;
+  }
   .bio p {
     margin-left: 0;
     margin-right: 0;
@@ -176,8 +179,8 @@
   }
 
   .bottom p  {
-    font-size: 1.6rem;
-    margin-left: 5rem;
+    font-size: 1.2rem;
+    margin-left: 7rem;
   }
 
   .bottom h3 {
@@ -188,10 +191,11 @@
     margin-left: 8rem;
   }
 
-  .social-media  {
-    margin-right: 0;
-    margin-left: 1rem;
-    float: right;
+  .social-media i {
+    margin-right: 3.5rem;
+    margin-left: 0;
+    font-size: 40px;
+
   }
 
   .About {
